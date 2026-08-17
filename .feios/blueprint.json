@@ -1,0 +1,29 @@
+{
+  "project_name": "a_professional_betting",
+  "project_type": "generic",
+  "description": "A professional betting prediction website called FEIOS PREDICTIONS with:",
+  "features": [],
+  "pages": [
+    "Home"
+  ],
+  "components": [
+    "Navbar",
+    "Footer"
+  ],
+  "models": [
+    "User"
+  ],
+  "routes": [
+    "/api/auth/login",
+    "/api/auth/register",
+    "/api/users/me"
+  ],
+  "tech_stack": {
+    "frontend": "react",
+    "backend": "fastapi",
+    "database": "postgres",
+    "auth": "jwt"
+  },
+  "styling": "tailwind",
+  "dark_mode": false
+}
