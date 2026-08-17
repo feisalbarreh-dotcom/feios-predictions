@@ -4,7 +4,9 @@
 A commercial website built with React and FastAPI.
 
 ## Features
-- None
+- user_auth
+- dark_mode
+- payment
 
 ## Tech Stack
 - **Frontend**: React + Tailwind CSS

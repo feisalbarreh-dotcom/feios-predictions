@@ -1,17 +1,30 @@
 {
   "project_name": "a_professional_betting",
-  "project_type": "generic",
-  "description": "A professional betting prediction website called FEIOS PREDICTIONS with:",
-  "features": [],
+  "project_type": "blog",
+  "description": "A professional betting prediction website called FEIOS PREDICTIONS with React frontend, FastAPI backend, PostgreSQL database, dark theme, home page with today's predictions, FREE section for LOW confidence bets, PREMIUM section for MEDIUM and HIGH confidence bets locked with KES 100 M-PESA payment, performance dashboard with win rates by confidence, user authentication, and prediction history",
+  "features": [
+    "user_auth",
+    "dark_mode",
+    "payment"
+  ],
   "pages": [
-    "Home"
+    "Home",
+    "BlogList",
+    "BlogPost",
+    "About",
+    "Contact"
   ],
   "components": [
     "Navbar",
-    "Footer"
+    "Footer",
+    "LoginForm",
+    "RegisterForm",
+    "ProtectedRoute",
+    "DarkModeToggle"
   ],
   "models": [
-    "User"
+    "User",
+    "Payment"
   ],
   "routes": [
     "/api/auth/login",
@@ -25,5 +38,5 @@
     "auth": "jwt"
   },
   "styling": "tailwind",
-  "dark_mode": false
+  "dark_mode": true
 }
